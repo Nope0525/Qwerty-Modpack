@@ -1,0 +1,9 @@
+[INFO]  Located rule file: mud_block.json
+[INFO]  Located rule file: quartz_ore.json
+[INFO]  Located rule file: seeds_from_grass.json
+[INFO]  Rule file loaded: mud_block.json
+[INFO]  Rule file loaded: quartz_ore.json
+[INFO]  Rule file loaded: seeds_from_grass.json
+[DEBUG] [PARSE] Parsed empty item
+[ERROR] [PARSE] Unable to find registered item [com.codetaylor.mc.dropt.modules.dropt.rule.parse.ParserUtil$NBTParseResult@6c95371a] in file: seeds_from_grass.json
+[ERROR] [PARSE] Unable to find registered item [com.codetaylor.mc.dropt.modules.dropt.rule.parse.ParserUtil$NBTParseResult@1b08bd3c] in file: seeds_from_grass.json
