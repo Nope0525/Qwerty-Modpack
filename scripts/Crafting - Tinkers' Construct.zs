@@ -2,16 +2,17 @@
 //Tinkers' Construct Recipes
 
 	import crafttweaker.liquid.ILiquidDefinition;
-
+	
 //=======================================================================================================================================================================
 //Remove Recipes
 
 	recipes.remove(<tconstruct:tinker_tank_controller>);
 	recipes.remove(<tconstruct:seared_furnace_controller>);
 	recipes.remove(<tconstruct:smeltery_controller>);
-	recipes.remove(<tconstruct:throwball>);
-	recipes.remove(<tconstruct:slime_boots>);
-	recipes.remove(<tconstruct:slimesling>);
+	recipes.removeShaped(<tconstruct:stone_torch>);
+	recipes.removeShaped(<tconstruct:throwball>);
+	recipes.removeShaped(<tconstruct:slime_boots>);
+	recipes.removeShaped(<tconstruct:slimesling>);
 	//recipes.remove(<tinkersforging:hammer/wood>);
 	//recipes.remove(<tinkersforging:forge>);
 	

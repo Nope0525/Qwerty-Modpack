@@ -1,7 +1,5 @@
 //=======================================================================================================================================================================
-//Remove All Recipes
-
-	//Remove
+//Remove
 	recipes.remove(<betterwithmods:single_machine>);
 	recipes.remove(<betterwithmods:infernal_enchanter>);
 	recipes.remove(<betterwithmods:wicker>);
