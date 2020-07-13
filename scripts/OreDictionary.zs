@@ -115,12 +115,6 @@ var hammer = <ore:hammer>;
 	<pyrotech:diamond_hammer>,
 	<pyrotech:obsidian_hammer>
 	]);
-	
-var string = <ore:string>;
-    string.addItems([
-	<tfc:animal/product/wool_yarn>,
-	<minecraft:string>
-	]);
 
 var fireStarter = <ore:fireStarter>;
     fireStarter.addItems([

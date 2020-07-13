@@ -9,7 +9,6 @@
 	recipes.remove(<chisel:chisel_iron>);
 	recipes.remove(<chisel:chisel_diamond>);
 	recipes.remove(<chisel:offsettool>);
-	recipes.remove(<minecraft:chest>);
 	recipes.remove(<minecraft:leather>);
 	//recipes.remove(<quark:dark_oak_button>);
 	//recipes.remove(<quark:acacia_button>);
@@ -266,7 +265,6 @@
 	<minecraft:diamond_chestplate>.displayName = "Broken Diamond Chestplate";
 	<minecraft:diamond_leggings>.displayName = "Broken Diamond Leggings";
 	<minecraft:diamond_boots>.displayName = "Broken Diamond Boots";
-	<minecraft:chest>.displayName = "Stone Chest";
 	<minecraft:diamond>.displayName = "Cut Diamond";
 	
 	//Flowers

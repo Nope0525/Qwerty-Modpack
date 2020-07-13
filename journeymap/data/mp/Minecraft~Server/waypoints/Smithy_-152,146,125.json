@@ -1,0 +1,18 @@
+{
+  "id": "Smithy_-152,146,125",
+  "name": "Smithy",
+  "icon": "waypoint-normal.png",
+  "x": -152,
+  "y": 146,
+  "z": 125,
+  "r": 253,
+  "g": 83,
+  "b": 8,
+  "enable": true,
+  "type": "Normal",
+  "origin": "journeymap",
+  "dimensions": [
+    0
+  ],
+  "persistent": true
+}

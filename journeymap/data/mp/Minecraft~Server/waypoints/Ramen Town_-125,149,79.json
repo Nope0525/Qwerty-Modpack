@@ -1,0 +1,18 @@
+{
+  "id": "Ramen Town_-125,149,79",
+  "name": "Ramen Town",
+  "icon": "waypoint-normal.png",
+  "x": -125,
+  "y": 149,
+  "z": 79,
+  "r": 208,
+  "g": 234,
+  "b": 43,
+  "enable": true,
+  "type": "Normal",
+  "origin": "journeymap",
+  "dimensions": [
+    0
+  ],
+  "persistent": true
+}

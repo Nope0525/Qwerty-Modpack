@@ -1,0 +1,18 @@
+{
+  "id": "Plantation Inc._-160,144,173",
+  "name": "Plantation Inc.",
+  "icon": "waypoint-normal.png",
+  "x": -160,
+  "y": 144,
+  "z": 173,
+  "r": 0,
+  "g": 255,
+  "b": 0,
+  "enable": true,
+  "type": "Normal",
+  "origin": "journeymap",
+  "dimensions": [
+    0
+  ],
+  "persistent": true
+}

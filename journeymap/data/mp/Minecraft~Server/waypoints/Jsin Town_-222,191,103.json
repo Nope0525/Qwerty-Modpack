@@ -1,0 +1,18 @@
+{
+  "id": "Jsin Town_-222,191,103",
+  "name": "Jsin Town",
+  "icon": "waypoint-normal.png",
+  "x": -222,
+  "y": 191,
+  "z": 103,
+  "r": 250,
+  "g": 188,
+  "b": 2,
+  "enable": true,
+  "type": "Normal",
+  "origin": "journeymap",
+  "dimensions": [
+    0
+  ],
+  "persistent": true
+}

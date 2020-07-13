@@ -1,1 +1,0 @@
-java -XX:SurvivorRatio=2 -XX:+DisableExplicitGC -d64 -XX:+UseConcMarkSweepGC -XX:+AggressiveOpts -XX:+UseStringDeduplication -Xms1024M -Xmx8192M -jar forge-1.12.2-14.23.5.2854.jar

@@ -2,17 +2,16 @@
 //Tinkers' Construct Recipes
 
 	import crafttweaker.liquid.ILiquidDefinition;
-	
+
 //=======================================================================================================================================================================
 //Remove Recipes
 
 	recipes.remove(<tconstruct:tinker_tank_controller>);
 	recipes.remove(<tconstruct:seared_furnace_controller>);
 	recipes.remove(<tconstruct:smeltery_controller>);
-	recipes.removeShaped(<tconstruct:stone_torch>);
-	recipes.removeShaped(<tconstruct:throwball>);
-	recipes.removeShaped(<tconstruct:slime_boots>);
-	recipes.removeShaped(<tconstruct:slimesling>);
+	recipes.remove(<tconstruct:throwball>);
+	recipes.remove(<tconstruct:slime_boots>);
+	recipes.remove(<tconstruct:slimesling>);
 	//recipes.remove(<tinkersforging:hammer/wood>);
 	//recipes.remove(<tinkersforging:forge>);
 	
@@ -736,6 +735,8 @@
 	
 	mods.tconstruct.Alloy.addRecipe(<liquid:blue_steel> * 9, [<liquid:black_steel> * 5, <liquid:rose_gold> * 1, <liquid:brass> * 1, <liquid:steel> * 2]);
 	mods.tconstruct.Alloy.addRecipe(<liquid:red_steel> * 9, [<liquid:black_steel> * 5, <liquid:bismuth_bronze> * 1, <liquid:silver> * 1, <liquid:steel> * 2]);
+	mods.tconstruct.Alloy.addRecipe(<liquid:black_steel> * 2, [<liquid:pigiron> * 1, <liquid:steel> * 1]);
+	mods.tconstruct.Alloy.addRecipe(<liquid:black_steel> * 2, [<liquid:pig_iron> * 1, <liquid:steel> * 1]);
 	mods.tconstruct.Alloy.addRecipe(<liquid:black_bronze> * 10, [<liquid:gold> * 2, <liquid:copper> * 6, <liquid:silver> * 2]);
 	mods.tconstruct.Alloy.addRecipe(<liquid:rose_gold> * 10, [<liquid:gold> * 8, <liquid:copper> * 2]);
 	mods.tconstruct.Alloy.addRecipe(<liquid:sterling_silver> * 10, [<liquid:silver> * 7, <liquid:gold> * 3]);

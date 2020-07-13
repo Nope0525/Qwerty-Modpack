@@ -1,0 +1,18 @@
+{
+  "id": "Hansol Town_-140,148,0",
+  "name": "Hansol Town",
+  "icon": "waypoint-normal.png",
+  "x": -140,
+  "y": 148,
+  "z": 0,
+  "r": 254,
+  "g": 0,
+  "b": 149,
+  "enable": true,
+  "type": "Normal",
+  "origin": "journeymap",
+  "dimensions": [
+    0
+  ],
+  "persistent": true
+}

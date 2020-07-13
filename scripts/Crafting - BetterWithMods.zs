@@ -1,5 +1,14 @@
 //=======================================================================================================================================================================
-//Remove
+//Remove All Recipes
+
+	mods.betterwithmods.Anvil.removeAll();
+	mods.betterwithmods.Cauldron.removeAll();
+	mods.betterwithmods.Crucible.removeAll();
+	mods.betterwithmods.Kiln.removeAll();
+	mods.betterwithmods.Mill.removeAll();
+	mods.betterwithmods.Saw.removeAll();
+
+	//Remove
 	recipes.remove(<betterwithmods:single_machine>);
 	recipes.remove(<betterwithmods:infernal_enchanter>);
 	recipes.remove(<betterwithmods:wicker>);
