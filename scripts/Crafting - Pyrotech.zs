@@ -213,8 +213,8 @@
 //=======================================================================================================================================================================
 //Add Brick Sawmill Recipes (Refractory)
 
-	BrickSawmill.addRecipe("brick_masonry_brick", <pyrotech:material:16> * 2, <ore:slabBrick>, 1280, <pyrotech:sawmill_blade_iron:*>.or(<pyrotech:sawmill_blade_obsidian:*>), 0);
-	BrickSawmill.addRecipe("brick_masonry_brick_diamond", <pyrotech:material:16> * 2, <ore:slabBrick>, 640, <pyrotech:sawmill_blade_diamond:*>, 0);
+	BrickSawmill.addRecipe("brick_masonry_brick", <pyrotech:material:16> * 2, <ore:slabBrickStone>, 1280, <pyrotech:sawmill_blade_iron:*>.or(<pyrotech:sawmill_blade_obsidian:*>), 0);
+	BrickSawmill.addRecipe("brick_masonry_brick_diamond", <pyrotech:material:16> * 2, <ore:slabBrickStone>, 640, <pyrotech:sawmill_blade_diamond:*>, 0);
 	
 	BrickSawmill.addRecipe("brick_board_2", <pyrotech:material:20> * 2, <ore:slabWood>, 160, <pyrotech:sawmill_blade_iron:*>.or(<pyrotech:sawmill_blade_diamond:*>).or(<pyrotech:sawmill_blade_obsidian:*>), 2);
 	
@@ -541,7 +541,7 @@
 //Add Granite Anvil Recipes
 	
 	GraniteAnvil.addRecipe("granite_anvil_crushed_limestone", <pyrotech:material:28>, <ore:rockLimestone>, 4, "hammer");
-	GraniteAnvil.addRecipe("granite_anvil_masonry_brick", <pyrotech:material:16> * 2, <ore:slabBrick>, 5, "pickaxe");
+	GraniteAnvil.addRecipe("granite_anvil_masonry_brick", <pyrotech:material:16> * 2, <ore:slabBrickStone>, 5, "pickaxe");
 	GraniteAnvil.addRecipe("granite_anvil_iron_shard", <pyrotech:material:19>, <ore:nuggetIron>, 2, "pickaxe");
 	GraniteAnvil.addRecipe("granite_anvil_gold_shard", <pyrotech:material:34>, <ore:nuggetGold>, 1, "pickaxe");
 	GraniteAnvil.addRecipe("granite_anvil_iron_nugget_shard", <tfc:metal/nugget/wrought_iron>, <pyrotech:material:19>, 2, "hammer");
@@ -588,7 +588,7 @@
 //Iron Anvil Recipes
 
 	IroncladAnvil.addRecipe("iron_anvil_crushed_limestone", <pyrotech:material:28>, <ore:rockLimestone>, 4, "hammer");
-	IroncladAnvil.addRecipe("iron_anvil_masonry_brick", <pyrotech:material:16> * 2, <ore:slabBrick>, 5, "pickaxe");
+	IroncladAnvil.addRecipe("iron_anvil_masonry_brick", <pyrotech:material:16> * 2, <ore:slabBrickStone>, 5, "pickaxe");
 	IroncladAnvil.addRecipe("iron_anvil_iron_shard", <pyrotech:material:19>, <ore:nuggetIron>, 2, "pickaxe");
 	IroncladAnvil.addRecipe("iron_anvil_gold_shard", <pyrotech:material:34>, <ore:nuggetGold>, 1, "pickaxe");
 	IroncladAnvil.addRecipe("iron_anvil_iron_nugget_shard", <tfc:metal/nugget/wrought_iron>, <pyrotech:material:19>, 2, "hammer");
