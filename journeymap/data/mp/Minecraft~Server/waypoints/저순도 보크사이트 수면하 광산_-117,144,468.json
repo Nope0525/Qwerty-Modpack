@@ -1,0 +1,18 @@
+{
+  "id": "저순도 보크사이트 수면하 광산_-117,144,468",
+  "name": "저순도 보크사이트 수면하 광산",
+  "icon": "waypoint-normal.png",
+  "x": -117,
+  "y": 144,
+  "z": 468,
+  "r": 4,
+  "g": 237,
+  "b": 149,
+  "enable": true,
+  "type": "Normal",
+  "origin": "journeymap",
+  "dimensions": [
+    0
+  ],
+  "persistent": true
+}

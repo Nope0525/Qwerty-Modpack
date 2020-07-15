@@ -98,26 +98,26 @@
 //Add Mill Recipes
 
 	//Grain
-	mods.betterwithmods.Mill.addRecipe([<tfc:food/barley>],[<tfc:food/barley_grain>]);
-	mods.betterwithmods.Mill.addRecipe([<tfc:food/oat>],[<tfc:food/oat_grain>]);
-	mods.betterwithmods.Mill.addRecipe([<tfc:food/rice>],[<tfc:food/rice_grain>]);
-	mods.betterwithmods.Mill.addRecipe([<tfc:food/rye>],[<tfc:food/rye_grain>]);
-	mods.betterwithmods.Mill.addRecipe([<tfc:food/wheat>],[<tfc:food/wheat_grain>]);
+	mods.betterwithmods.Mill.addRecipe([<ore:barley>],[<tfc:food/barley_grain>]);
+	mods.betterwithmods.Mill.addRecipe([<ore:oat>],[<tfc:food/oat_grain>]);
+	mods.betterwithmods.Mill.addRecipe([<ore:rice>],[<tfc:food/rice_grain>]);
+	mods.betterwithmods.Mill.addRecipe([<ore:rye>],[<tfc:food/rye_grain>]);
+	mods.betterwithmods.Mill.addRecipe([<ore:wheat>],[<tfc:food/wheat_grain>]);
 
 	//Flour
-	mods.betterwithmods.Mill.addRecipe([<tfc:food/barley_grain>],[<tfc:food/barley_flour> * 2]);
-	mods.betterwithmods.Mill.addRecipe([<tfc:food/maize>],[<tfc:food/cornmeal_flour> * 2]);
-	mods.betterwithmods.Mill.addRecipe([<tfc:food/oat_grain>],[<tfc:food/oat_flour> * 2]);
-	mods.betterwithmods.Mill.addRecipe([<tfc:food/rice_grain>],[<tfc:food/rice_flour> * 2]);
-	mods.betterwithmods.Mill.addRecipe([<tfc:food/rye_grain>],[<tfc:food/rye_flour> * 2]);
-	mods.betterwithmods.Mill.addRecipe([<tfc:food/wheat_grain>],[<tfc:food/wheat_flour> * 2]);
+	mods.betterwithmods.Mill.addRecipe([<ore:grainBarley>],[<tfc:food/barley_flour> * 2]);
+	mods.betterwithmods.Mill.addRecipe([<ore:maize>],[<tfc:food/cornmeal_flour> * 2]);
+	mods.betterwithmods.Mill.addRecipe([<ore:grainOat>],[<tfc:food/oat_flour> * 2]);
+	mods.betterwithmods.Mill.addRecipe([<ore:grainRice_>],[<tfc:food/rice_flour> * 2]);
+	mods.betterwithmods.Mill.addRecipe([<ore:grainRye>],[<tfc:food/rye_flour> * 2]);
+	mods.betterwithmods.Mill.addRecipe([<ore:grainWheat>],[<tfc:food/wheat_flour> * 2]);
 
 	//Sugar
-	mods.betterwithmods.Mill.addRecipe([<tfc:food/sugarcane> * 4],[<minecraft:sugar>]);
+	mods.betterwithmods.Mill.addRecipe([<ore:sugarcane> * 4],[<minecraft:sugar>]);
 	//mods.betterwithmods.Mill.addRecipe([<tfc:plants/sugar_cane> * 4],[<minecraft:sugar>]);
 
 	//Jute
-	mods.betterwithmods.Mill.addRecipe([<tfc:crop/product/jute>],[<tfc:crop/product/jute_fiber>]);
+	mods.betterwithmods.Mill.addRecipe([<ore:jute>],[<tfc:crop/product/jute_fiber>]);
 
 	//Flux
 	mods.betterwithmods.Mill.addRecipe([<tfc:ore/borax>],[<tfc:powder/flux> * 10]);
