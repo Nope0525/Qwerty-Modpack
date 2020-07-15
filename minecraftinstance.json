@@ -700,7 +700,7 @@
     "isFuzzyMatch": false,
     "preferenceReleaseType": null,
     "manifestName": null,
-    "installedTargets": []
+    "installedTargets": null
   },
   "projectID": 318554,
   "fileID": 3002007,
